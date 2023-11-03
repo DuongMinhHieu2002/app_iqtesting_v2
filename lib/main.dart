@@ -230,13 +230,30 @@ class _MainAppState extends State<MainApp> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    "Question ${index + 1}/${questions.length}",
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w300,
-                      fontSize: 20,
-                    ),
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => DashboardScreen()));
+                        },
+                        icon: Icon(Icons.arrow_back),
+                        color: Colors.white,
+                      ),
+                      SizedBox(
+                        width: 50,
+                      ),
+                      Text(
+                        "Question ${index + 1}/${questions.length}",
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w300,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ],
                   ),
                   const Divider(
                     color: Colors.white,
@@ -392,13 +409,30 @@ class _History_ScrenState extends State<History_Scren> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    "Question ${index + 1}/${historys.length}",
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w300,
-                      fontSize: 20,
-                    ),
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => DashboardScreen()));
+                        },
+                        icon: Icon(Icons.arrow_back),
+                        color: Colors.white,
+                      ),
+                      SizedBox(
+                        width: 50,
+                      ),
+                      Text(
+                        "Question ${index + 1}/${questions.length}",
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w300,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ],
                   ),
                   const Divider(
                     color: Colors.white,
@@ -532,13 +566,30 @@ class _GeoGrapicState extends State<GeoGrapic> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    "Question ${index + 1}/${geographics.length}",
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w300,
-                      fontSize: 20,
-                    ),
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => DashboardScreen()));
+                        },
+                        icon: Icon(Icons.arrow_back),
+                        color: Colors.white,
+                      ),
+                      SizedBox(
+                        width: 50,
+                      ),
+                      Text(
+                        "Question ${index + 1}/${questions.length}",
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w300,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ],
                   ),
                   const Divider(
                     color: Colors.white,
@@ -675,13 +726,30 @@ class _MathState extends State<Math> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    "Question ${index + 1}/${maths.length}",
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w300,
-                      fontSize: 20,
-                    ),
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => DashboardScreen()));
+                        },
+                        icon: Icon(Icons.arrow_back),
+                        color: Colors.white,
+                      ),
+                      SizedBox(
+                        width: 50,
+                      ),
+                      Text(
+                        "Question ${index + 1}/${questions.length}",
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w300,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ],
                   ),
                   const Divider(
                     color: Colors.white,
